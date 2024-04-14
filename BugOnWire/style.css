@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'KulminoituvaRegular';
+    src: url('http://www.miketaylr.com/f/kulminoituva.ttf');
+}
+
+body{
+    background-image: url('./images/Background3.png');
+    background-size: cover;
+}
+
+#canvas{
+    margin-left:10%;
+    margin-top : 20px;
+    border: 10px solid black;
+    font-size: 100px;
+}
+
+#scoreboard{
+    margin-top : 30px;
+    /* border: 10px solid red; */
+    font-size: 100px;
+    background-image: url('./images/controlleroverlay.png');
+    background-repeat: no-repeat;
+    width: 500 px;
+    height: 800 px;
+
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+
